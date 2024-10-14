@@ -33,7 +33,7 @@ import {
   MicVocal,
   LogIn,
   BarChart,
-  Hammer,
+  FileText,
 } from "lucide-react";
 
 function LoginForm() {
@@ -269,13 +269,13 @@ function LoginForm() {
                                   Contador
                                 </div>
                               </SelectItem>
-                              <SelectItem value="apoyo tecnico">
+                              <SelectItem value="apoyo admin">
                                 <div className="flex items-center">
-                                  <Hammer
+                                  <FileText
                                     className="w-4 h-4 mr-2"
                                     color="#03a9f4"
                                   />
-                                  Apoyo Técnico
+                                  Apoyo Administrativo
                                 </div>
                               </SelectItem>
                             </SelectContent>
